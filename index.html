@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ocean Cleanup Adventure</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="homeScreen">
+    <h1>Ocean Cleanup Adventure</h1>
+    <button id="startButton">Start Game</button>
+</div>
+
+<div id="gameUI" style="display:none;">
+    <div id="scoreboard">Score: 0 | Time: 60</div>
+    <div id="questBox">Quest: </div>
+    <canvas id="gameCanvas"></canvas>
+    <button id="pauseButton">Pause</button>
+</div>
+
+<script src="quests.js"></script>
+<script src="game.js"></script>
+</body>
+</html>
